@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Typewriter from "typewriter-effect";
 import thunderVideo from "../assets/backFix.mp4";
 import Audio1 from "../assets/thunderstorm.wav";
+import headerBackAvif from "../assets/HeaderBack.avif";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Header = ({ activeSection, setActiveSection }) => {
@@ -125,7 +126,7 @@ const Header = ({ activeSection, setActiveSection }) => {
 
         {/* Background Image - ONLY show on small screens - WITH thunder effect */}
         <motion.img
-          src="/src/assets/HeaderBack.avif"
+          src={headerBackAvif}
           alt="Header Background"
           className={`absolute inset-0 object-cover w-full h-full md:hidden ${
             thunderEffect

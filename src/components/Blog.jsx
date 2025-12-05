@@ -11,6 +11,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { motion, AnimatePresence } from "framer-motion";
 import clickSound from "../assets/click.wav";
+import post1 from "../assets/post1.png";
+import hurrican from "../assets/hurrican.jpg";
+import winterpreparedness from "../assets/winterpreparedness.jpg";
+import AIinWeather from "../assets/AIinWeather.jpg";
+import cloud from "../assets/cloud.jpg";
+import heat from "../assets/heat.jpg";
 
 const playClickSound = () => {
   const audio = new Audio(clickSound);
@@ -65,7 +71,7 @@ const Blog = () => {
       date: "2024-01-15",
       readTime: "8 min read",
       category: "climate",
-      image: "/src/assets/post1.png",
+      image: post1,
       featured: true,
     },
     {
@@ -77,7 +83,7 @@ const Blog = () => {
       date: "2024-01-12",
       readTime: "6 min read",
       category: "storms",
-      image: "/src/assets/hurrican.jpg",
+      image: hurrican,
       featured: true,
     },
     {
@@ -89,7 +95,7 @@ const Blog = () => {
       date: "2024-01-10",
       readTime: "5 min read",
       category: "safety",
-      image: "/src/assets/winterpreparedness.jpg",
+      image: winterpreparedness,
     },
     {
       id: 4,
@@ -100,7 +106,7 @@ const Blog = () => {
       date: "2024-01-08",
       readTime: "10 min read",
       category: "technology",
-      image: "/src/assets/AIinWeather.jpg",
+      image: AIinWeather,
     },
     {
       id: 5,
@@ -111,7 +117,7 @@ const Blog = () => {
       date: "2024-01-05",
       readTime: "4 min read",
       category: "education",
-      image: "/src/assets/cloud.jpg",
+      image: cloud,
     },
     {
       id: 6,
@@ -122,7 +128,7 @@ const Blog = () => {
       date: "2024-01-03",
       readTime: "7 min read",
       category: "climate",
-      image: "/src/assets/heat.jpg",
+      image: heat,
     },
   ];
 

@@ -6,6 +6,7 @@ import twitter from "../assets/brandimages/microsoft.png";
 import facebook from "../assets/brandimages/netflix.png";
 import linkedin from "../assets/brandimages/nvidia.png";
 import youtube from "../assets/brandimages/samsung.png";
+import downloadPng from "../assets/Download.png";
 
 const Footer = () => {
   const containerVariants = {
@@ -85,7 +86,7 @@ const Footer = () => {
         >
           <img
             className="cursor-pointer"
-            src="/src/assets/Download.png"
+            src={downloadPng}
             alt="Download PNG"
           />
         </motion.div>
